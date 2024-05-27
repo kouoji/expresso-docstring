@@ -13,11 +13,13 @@ def finalizar_app():
 
 def voltar_menu_principal():
     input("Digite uma tecla para voltar ao menu principal: ")
+    #docstring
 '''
 Funçaõ para exibir o nome do programa
 ↓↓↓
 '''
 def mostrar_subtitulo(texto):
+    #docstring
     '''
     ↑↑↑
     Função responsavel por exibir o subtitulo no codigo
@@ -30,6 +32,7 @@ def mostrar_subtitulo(texto):
     print()
 
 def escolher_opcoes():
+    #docstring
     '''
     ↑↑↑
     Função responsavel pela as esciolhas das opções para fazer algo no app
@@ -42,6 +45,7 @@ def escolher_opcoes():
     print("4 - Sair\n")
 
 def opcao_invalida():
+    #docstring
     '''
     ↑↑↑
     Função para quando acontecer um erro
@@ -50,6 +54,7 @@ def opcao_invalida():
     voltar_menu_principal()
 
 def listarRestaurantes():
+    #docstring
     '''
     ↑↑↑
     Opção para listar restaurante na tela após ser cadastrado
@@ -68,6 +73,7 @@ def listarRestaurantes():
 
 
 def alternar_estado_restaurante():
+    #docstring
      '''
      ↑↑↑
      Esse trecho serve para alterar o estado do restaurante entre true or false
@@ -145,6 +151,7 @@ def main():
             elif opcaodigitada == 4:
                 print("Você escolheu sair do aplicativo\n")
                 finalizar_app()
+                #Docstring
                 '''
                 ↑↑↑
                 Essa função é responsavel por finalizar o app
